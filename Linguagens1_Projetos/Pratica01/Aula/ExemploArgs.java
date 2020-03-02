@@ -1,0 +1,13 @@
+class ExemploArgs{
+    public static void main(String[] args){
+        //String foolingaround = "";
+        int i;
+        for ( i = 0; i < args.length; i++){
+            // This, however, I was not aware of. It is good to learn. More knowledge to use.
+            // Lack of arg does not stop the execution
+            System.out.println( args[i] );
+            //foolingaround += args[i] + " ";
+        }
+        //System.out.println(foolingaround);
+    }
+}

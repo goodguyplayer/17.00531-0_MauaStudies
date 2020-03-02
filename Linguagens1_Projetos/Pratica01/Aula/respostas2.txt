@@ -1,0 +1,2 @@
+1. foi gerado o arquivo "MeuPrograma.class"
+2. java MeuPrograma  (Sem o .java ou .class)

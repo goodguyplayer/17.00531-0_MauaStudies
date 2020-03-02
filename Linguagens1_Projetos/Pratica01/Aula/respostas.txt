@@ -1,0 +1,8 @@
+1. C:\Program Files\Java\jdk1.8.0_162
+2. C:\Program Files\Java\jdk1.8.0_162\bin
+3. Ir ao cmd, digitar "javac [nomearquivo].java"  #https://stackoverflow.com/questions/16137713/how-do-i-run-a-java-program-from-the-command-line-on-windows
+4. Ir ao cmd, digitar "java [nomearquivo]"
+5. Variaves do ambiente são valores nomeados dinamicamente no sistema operacional, que afeta o comportamentos dos programas que o consome. Elas são guardadas em uma "lista" de chave-valor.  #https://pt.stackoverflow.com/questions/339476/o-que-s%C3%A3o-vari%C3%A1veis-de-ambiente
+6. Se for no seu ambiente, sim.
+7. (windows).: Painel de controle, Sistema e segurança, Sistema, Configurações avançadas do sistema, Variáveis do ambiente.
+8. O ambiente onde o java está localizado.
