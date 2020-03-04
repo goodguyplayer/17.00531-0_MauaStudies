@@ -1,6 +1,9 @@
 // Construa um programa que pede para o usuário informar usuário e senha.
 // Depois seu programa deve continuar sendo executado até que o usuário
 // informe usuário e senha corretamente.
+
+// 03/04 - Solved String compare issue with str.equals(str obj)
+// https://www.geeksforgeeks.org/compare-two-strings-in-java/
 import java.util.Scanner;
 public class exercicio3 {
     public static void main(String[] args) {
@@ -24,9 +27,9 @@ public class exercicio3 {
             testinfo.Name = scanner.nextLine();
             System.out.println("Favor inserir password");
             testinfo.Password = scanner.nextLine();
-            if (testinfo.Name != logInfo.Name){
+            if (testinfo.Name.equals(logInfo.Name) == false ){
                 System.out.println("Sorry, you wrote your username incorrectly. Please try again.");
-            } else if (testinfo.Password != logInfo.Password){
+            } else if (testinfo.Password.equals(logInfo.Password) == false){
                 System.out.println("Sorry, you wrote your password incorrectly. Please try again.");
             } else {
                 allowin = true;
@@ -36,11 +39,6 @@ public class exercicio3 {
         System.out.println("username and password correct. Welcome " + logInfo.Name);
         
     }
-
-// Not working. Hmm.
-// Ask teacher tomorrow.
-
-
 }
 
 class account {
