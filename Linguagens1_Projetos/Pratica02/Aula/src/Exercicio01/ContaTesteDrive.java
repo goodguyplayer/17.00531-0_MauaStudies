@@ -17,6 +17,8 @@ public class ContaTesteDrive {
         c2.visualizarSaldo();
         c1.sacar(3000);
         c1.visualizarSaldo();
+        c1.transferirDinheiro(c2, 1000);
+        c2.visualizarSaldo();
 
     }
 }

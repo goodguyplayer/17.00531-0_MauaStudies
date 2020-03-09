@@ -23,8 +23,12 @@ public class Conta {
             return true;
         }
     };
-    void transferirDinheiro(){
-
+    boolean transferirDinheiro(Conta Destino, double valor){
+        if (sacar(valor)){
+            Destino.depositar(valor);
+            return true;
+        }else {
+            return false;
+        }
     };
-
 }
