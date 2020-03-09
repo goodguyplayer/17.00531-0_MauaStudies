@@ -11,14 +11,15 @@ public class Conta {
         // Use this to refer to the instance being executed.
         System.out.println("Saldo.: " + this.saldo);
     };
-    void depositar(){
-        
+    void depositar(double valor){
+        this.saldo += valor;
     };
     boolean sacar(double valor){
         if (this.saldo < valor) {
             return false;
         } else {
-            this.saldo = this.saldo - valor;
+//            this.saldo = this.saldo - valor;
+            this.saldo -= valor;
             return true;
         }
     };
