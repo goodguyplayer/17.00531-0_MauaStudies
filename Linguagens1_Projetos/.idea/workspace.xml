@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac061012-7d0a-4327-ad2c-702368194589" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Pratica02/Exercicios/src/ClassicGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pratica03/Aula/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="573" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584969509991">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="573" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584969509991" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1584966249772">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
