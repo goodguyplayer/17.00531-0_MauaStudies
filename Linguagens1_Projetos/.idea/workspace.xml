@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac061012-7d0a-4327-ad2c-702368194589" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Pratica03/Aula/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Jogada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Jogada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pratica03/Aula/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pratica03/Aula/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="144" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +45,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NathanBrito\Documents\For classes - Coding stuff\17.00531-0_NathanBritoDaSilva\Linguagens1_Projetos\src\com\company" />
+      <recent name="C:\Users\NathanBrito\Documents\For classes - Coding stuff\17.00531-0_NathanBritoDaSilva\Linguagens1_Projetos\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -45,6 +62,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,10 +82,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="644" y="154" key="#Project_Structure" timestamp="1584973623022">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="644" y="154" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1584973623022" />
     <state x="573" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584969509991">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="573" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584969509991" />
+    <state width="1151" height="192" key="GridCell.Tab.0.bottom" timestamp="1584975177498">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584975177498" />
+    <state width="1151" height="192" key="GridCell.Tab.0.center" timestamp="1584975177498">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="192" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584975177498" />
+    <state width="1151" height="192" key="GridCell.Tab.0.left" timestamp="1584975177498">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="192" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584975177498" />
+    <state width="1151" height="192" key="GridCell.Tab.0.right" timestamp="1584975177498">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="192" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584975177498" />
+    <state width="1151" height="238" key="GridCell.Tab.1.bottom" timestamp="1584973716531">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584973716531" />
+    <state width="1151" height="238" key="GridCell.Tab.1.center" timestamp="1584973716531">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="238" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584973716531" />
+    <state width="1151" height="238" key="GridCell.Tab.1.left" timestamp="1584973716531">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="238" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584973716531" />
+    <state width="1151" height="238" key="GridCell.Tab.1.right" timestamp="1584973716531">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1151" height="238" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584973716531" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1584966249772">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -72,5 +130,8 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584966241086" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Linguagens1_Projetos$Main.ic" NAME="Main Coverage Results" MODIFIED="1584975177440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -12,6 +12,6 @@ public class Cliente{
         }
     }
     boolean validarCPF(){
-        
+
     }
 }
