@@ -2,84 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac061012-7d0a-4327-ad2c-702368194589" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Pratica04/Pratica04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pratica04/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pratica04/src/MinhaClasse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/Aula.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/EntradaDeDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/ExemploArgs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/ExemploArgs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/MeuPrograma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/MeuPrograma.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/OlaEclipse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/out/production/Aula/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/respostas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/respostas2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Aula/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/bin/Exercicio1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/bin/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/exercicio7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/src/Exercicio1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica01/Exercicios/src/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/Aula.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/out/production/Aula/Exercicio01/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/out/production/Aula/Exercicio01/Conta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/out/production/Aula/Exercicio01/ContaTesteDrive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/out/production/Aula/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/src/Exercicio01/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/src/Exercicio01/Conta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/src/Exercicio01/ContaTesteDrive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Aula/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Jogada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Jogada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Jogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios-Aula4/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/Exercicios.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/src/ClassicGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/src/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/src/RockPaperScissors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/Exercicios/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica02/untitled104.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica03/Aula/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica03/Aula/Conta.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -158,6 +85,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="573" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584969509991" />
+    <state x="739" y="281" key="FileChooserDialogImpl" timestamp="1585573414363">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="739" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585573414363" />
     <state width="1151" height="238" key="GridCell.Tab.0.bottom" timestamp="1584976265797">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -198,6 +129,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585571560408" />
+    <state x="342" y="160" key="new project wizard" timestamp="1585573416032">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="160" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585573416032" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Linguagens1_Projetos$Main.ic" NAME="Main Coverage Results" MODIFIED="1584975177440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
