@@ -39,12 +39,23 @@ public class Main {
         System.out.println("Terceira conta.: " + c3.getUsuario().getNome() + " , ID.: " + c3.getIdConta());
         System.out.println(c3.getSaldo());
 
+        //Account 1 asks for 250
         qrcode = transacoes.gerarQR(c1, 250);
+        // .receber(qrcode, payer, receiver)
         transacoes.receber(qrcode, c2, c1);
         transacoes.receber(qrcode, c3, c1);
         transacoes.receber(qrcode, c2, c1);
 
+        //Account 2 asks for 1000
         qrcode = transacoes.gerarQR(c2, 1000);
         transacoes.receber(qrcode, c3, c2);
+
+        //Now output final data
+        System.out.println("Primeira conta.: " + c1.getUsuario().getNome() + " , ID.: " + c1.getIdConta());
+        System.out.println(c1.getSaldo());
+        System.out.println("Segunda conta.: " + c2.getUsuario().getNome() + " , ID.: " + c2.getIdConta());
+        System.out.println(c2.getSaldo());
+        System.out.println("Terceira conta.: " + c3.getUsuario().getNome() + " , ID.: " + c3.getIdConta());
+        System.out.println(c3.getSaldo());
     }
 }

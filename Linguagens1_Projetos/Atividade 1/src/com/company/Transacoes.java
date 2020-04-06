@@ -5,15 +5,16 @@ public class Transacoes {
     //Nome = Nathan Brito da Silva;
     //RA = 17.00531-0;
 
+    // Make random number
     private static int getRandomNumberInRange(int min, int max) {
         Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
     }
 
+    // Creates QR code
     public String gerarQR(Contas quemRecebe, double valor){
         String qrCode;
         // qrCode = id;nome;valor;randomnumber
-
         //To quote jack the ripper - Let's go piece by piece
         qrCode = quemRecebe.getIdConta() + ";";
         qrCode += quemRecebe.getUsuario().getNome() + ";";
@@ -22,6 +23,7 @@ public class Transacoes {
         return qrCode;
     }
 
+    // Makes transaction
     public void receber(String qrCode, Contas pagador, Contas recebedor){
         if (pagador.getSaldo() == 0){
             System.out.println("Pagamento inválido - Não há dinheiro sobrando");
