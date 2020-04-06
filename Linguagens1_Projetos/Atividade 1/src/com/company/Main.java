@@ -7,6 +7,7 @@ public class Main {
         //Nome = Nathan Brito da Silva;
         //RA = 17.00531-0;
         Scanner scanner = new Scanner(System.in);
+        Transacoes transacoes = new Transacoes();
         String username;
 
         //First account
@@ -40,5 +41,8 @@ public class Main {
         System.out.println(c3.getIdConta());
         System.out.println(c2.getIdConta());
         System.out.println(c1.getIdConta());
+
+        System.out.println(transacoes.gerarQR(c1, 250));
+
     }
 }

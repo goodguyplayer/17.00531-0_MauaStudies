@@ -9,4 +9,18 @@ public class Transacoes {
         Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
     }
+
+    public String gerarQR(Contas quemRecebe, double valor){
+        String qrCode;
+        // qrCode = id;nome;valor;randomnumber
+        qrCode = Integer.toString(quemRecebe.getIdConta()) + ";";
+        qrCode += quemRecebe.getUsuario().getNome() + ";";
+        qrCode += Double.toString(valor) + ";";
+        qrCode += Integer.toString(getRandomNumberInRange(1000, 9999));
+        return qrCode;
+    }
+
+    public void receber(){
+        return;
+    }
 }

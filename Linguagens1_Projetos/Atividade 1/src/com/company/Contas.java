@@ -9,9 +9,9 @@ public class Contas {
     private static int totalContas;
 
 
-
+    // Set account with Usuario class and ID
     public Contas(Usuario usuario){
-        //Stole from aula 5 to set the ID
+        //Stolen from aula 5 to set the ID
         Contas.totalContas = Contas.totalContas + 1;
         this.idConta = Contas.totalContas;
         this.usuario = usuario;
