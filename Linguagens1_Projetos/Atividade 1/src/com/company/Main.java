@@ -37,5 +37,8 @@ public class Main {
         System.out.println(c2.getSaldo());
         System.out.println(c3.getUsuario().getNome());
         System.out.println(c3.getSaldo());
+        System.out.println(c3.getIdConta());
+        System.out.println(c2.getIdConta());
+        System.out.println(c1.getIdConta());
     }
 }
