@@ -15,7 +15,7 @@ public class Transacoes {
         // qrCode = id;nome;valor;randomnumber
 
         //To quote jack the ripper - Let's go piece by piece
-        qrCode = Integer.toString(quemRecebe.getIdConta()) + ";";
+        qrCode = quemRecebe.getIdConta() + ";";
         qrCode += quemRecebe.getUsuario().getNome() + ";";
         qrCode += Double.toString(valor) + ";";
         qrCode += Integer.toString(getRandomNumberInRange(1000, 9999));
@@ -30,13 +30,18 @@ public class Transacoes {
             //Now friendship kinda ended with .split. Regex is my true friend now
             String[] dados = qrCode.split(";");
             // 0 -> ID, 1 -> Username, 2 -> Value, 3 -> Random number ("Unused" for now)
-            if (dados[0].compareTo(Integer.toString(recebedor.getIdConta())) && dados[1].compareTo(recebedor.getUsuario().getNome())){
+            if (dados[0].equals(recebedor.getIdConta()) && dados[1].equals(recebedor.getUsuario().getNome())){
+                System.out.println("Pagamento válido. Executando...");
+                pagador.sacar(Double.parseDouble(dados[2]));
+                recebedor.depositar(Double.parseDouble(dados[2]));
+                System.out.println("Operação terminada.");
 
+            } else {
+                System.out.println("System breach detected.");
+                System.out.println("This attempt has been documented and the system will be disabled in 5 seconds.");
+                System.out.println("Have a nice day.");
+                System.out.println("Big Brother is watching you.");
             }
-
         }
-
-
-        return;
     }
 }

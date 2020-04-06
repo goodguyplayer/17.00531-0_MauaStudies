@@ -4,7 +4,7 @@ public class Contas {
     //Nome = Nathan Brito da Silva;
     //RA = 17.00531-0;
     private String idConta;
-    private int saldo = 0;
+    private double saldo = 0;
     private Usuario usuario;
     private static int totalContas;
 
@@ -21,7 +21,7 @@ public class Contas {
         return usuario;
     }
 
-    public int getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
 
@@ -31,5 +31,13 @@ public class Contas {
 
     public void depositar (double valor){
         this.saldo += valor;
+    }
+
+    public void sacar (double valor){
+        if (this.saldo < valor){
+            System.out.println("Não é possivel sacar");
+        } else  {
+            this.saldo -= valor;
+        }
     }
 }
