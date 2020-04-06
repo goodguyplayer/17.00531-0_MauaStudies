@@ -30,9 +30,9 @@ public class Transacoes {
             //Now friendship kinda ended with .split. Regex is my true friend now
             String[] dados = qrCode.split(";");
             // 0 -> ID, 1 -> Username, 2 -> Value, 3 -> Random number ("Unused" for now)
-            //if (Integer.parseInt(dados[0]) == recebedor.getIdConta() && dados[1].compareTo(recebedor.getUsuario().getNome())){
+            if (dados[0].compareTo(Integer.toString(recebedor.getIdConta())) && dados[1].compareTo(recebedor.getUsuario().getNome())){
 
-            //}
+            }
 
         }
 

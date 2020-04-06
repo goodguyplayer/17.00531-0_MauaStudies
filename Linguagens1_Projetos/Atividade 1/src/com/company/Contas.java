@@ -3,7 +3,7 @@ package com.company;
 public class Contas {
     //Nome = Nathan Brito da Silva;
     //RA = 17.00531-0;
-    private int idConta;
+    private String idConta;
     private int saldo = 0;
     private Usuario usuario;
     private static int totalContas;
@@ -13,7 +13,7 @@ public class Contas {
     public Contas(Usuario usuario){
         //Stolen from aula 5 to set the ID
         Contas.totalContas = Contas.totalContas + 1;
-        this.idConta = Contas.totalContas;
+        this.idConta = Integer.toString(Contas.totalContas);
         this.usuario = usuario;
     }
 
@@ -25,7 +25,7 @@ public class Contas {
         return saldo;
     }
 
-    public int getIdConta(){
+    public String getIdConta(){
         return idConta;
     }
 
