@@ -5,6 +5,15 @@ public class Contas {
     //RA = 17.00531-0;
     private String IdConta;
     private int saldo;
+    private Usuario usuario;
+
+    public Contas(Usuario usuario){
+        this.usuario = usuario;
+    }
+
+    public Usuario getUsuario(){
+        return usuario;
+    }
 
     public int getSaldo() {
         return saldo;
