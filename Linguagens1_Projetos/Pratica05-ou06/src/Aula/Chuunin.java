@@ -1,4 +1,4 @@
 package Aula;
 
-public class Chuunin extends Ninja{
+public class Chuunin extends RankedNinja{
 }
