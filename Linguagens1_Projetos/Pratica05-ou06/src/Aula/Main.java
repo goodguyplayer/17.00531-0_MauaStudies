@@ -10,5 +10,7 @@ public class Main {
         Chuunin chuunin = new Chuunin("Iruka","Umino", "Treinar XYZ");
         chuunin.train();
         chuunin.goToMission();
+        Jounin jounin = new Jounin("Kakashi", "hatake", "Train sasuke!");
+        jounin.goToMission();
     }
 }

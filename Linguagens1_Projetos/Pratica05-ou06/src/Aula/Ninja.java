@@ -12,6 +12,7 @@ public class Ninja {
         jutsus = new String[5];
     }
 
+
     public void train(){
         System.out.println("Hoho!");
     }

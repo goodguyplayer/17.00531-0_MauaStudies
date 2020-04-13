@@ -9,7 +9,12 @@ public class RankedNinja extends Ninja {
         this.mission = mission;
     }
 
-    public void goToMission(){
+    @Override
+    public void train(){
+        System.out.println("No pain no gain!");
+    }
+
+    final public void goToMission(){
         System.out.println("Indo para missao:" + mission);
     }
 }

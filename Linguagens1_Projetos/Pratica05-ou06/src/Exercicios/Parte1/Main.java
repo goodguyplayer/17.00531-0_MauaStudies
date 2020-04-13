@@ -1,8 +1,7 @@
-package com.company;
+package Exercicios.Parte1;
 
 public class Main {
-
     public static void main(String[] args) {
-        RH.rodarRh();
+
     }
 }
