@@ -8,7 +8,7 @@ public class Main {
         Lobo lobo = new Lobo();
         Peixe peixe = new Peixe();
 
-        ArrayList<Animal> animals = new ArrayList();
+        ArrayList<Animal> animals = new ArrayList<>();
         animals.add(cachorro);
         animals.add(lobo);
         animals.add(peixe);
