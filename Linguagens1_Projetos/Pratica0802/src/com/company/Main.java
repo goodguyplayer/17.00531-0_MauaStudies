@@ -19,7 +19,12 @@ public class Main {
         System.out.println("inicio metodo 2");
         int[] array = new int[10];
         for (int i= 0; i<= 15; i++){
-            array[i] = i;
+            try {
+                array[i] = i;
+            }
+            catch (ArrayIndexOutOfBoundsException e){
+                System.out.println("Tentou acessar pos inválida.: " + i);
+            }
             System.out.println(i);
         }
         System.out.println("Fim metodo 2");
