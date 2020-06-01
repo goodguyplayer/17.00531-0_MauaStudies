@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"br.maua.model","l":"Animal"},{"p":"br.maua.enumerates","l":"AnimalClasses"},{"p":"br.maua.model","l":"Cat"},{"p":"br.maua.model","l":"Dog"},{"p":"br.maua.interfaces","l":"Eat"},{"p":"br.maua","l":"Main"},{"p":"br.maua.interfaces","l":"Walk"}]
