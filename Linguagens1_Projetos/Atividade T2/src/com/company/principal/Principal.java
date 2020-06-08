@@ -86,12 +86,12 @@ public class Principal {
                 case "1":
                     System.out.println("Favor inserir os dados.");
                     hackers.add(cadastro());
-                    System.out.println("H4ck3r cadastrado com sucesso. Voltando ao menu...");
+                    System.out.println("H4ck3r cadastrado com sucesso.");
                     break;
 
                 case "2":
                     System.out.println("Todos os h4ck3rs cadastrados.:");
-
+                    usuarios();
                     break;
 
                 case "3":
@@ -115,6 +115,7 @@ public class Principal {
                     System.out.println("Input detectado não reconhecido. Favor tentar novamente.");
                     break;
             }
+            System.out.println(" Voltando ao menu...");
         }
     }
 }
