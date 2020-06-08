@@ -14,7 +14,7 @@ public class PicturePoker {
         PicturePokerHand hand = new PicturePokerHand(dealer.deal());
         System.out.println("\n\nCurrent hand:");
         showPicturePokerList(hand.getHand());
-        System.out.println("Hand value.: " + hand.checkHand(hand.getHand()));
+        System.out.println("Hand value.: " +     hand.checkHand(hand.getHand()));
         hand.checkHand(hand.getHand());
 
 
