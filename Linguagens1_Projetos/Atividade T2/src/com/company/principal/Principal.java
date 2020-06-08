@@ -8,7 +8,7 @@ public class Principal {
     // Deve realizar o cadastro, apresentação de novos membros, mandar alguem embora, trocar jornada de trabalho, postar mensagems, sair do sistema
 
     // Guardar todos os membros registrados
-    private ArrayList<String> membros = new ArrayList<String>();
+    private ArrayList<String> hackers = new ArrayList<String>();
 
     // Enum - Membros
     Membro membro;
@@ -68,7 +68,7 @@ public class Principal {
 
     // Método usuários.: "get" de todos os usuários/Hackers cadastrados. Ou h4ck3rs
     private void usuarios(){
-        for (String hacker: this.membros) {
+        for (String hacker: this.hackers) {
             String[] dados = hacker.split(";");
             System.out.println( "H4ck3r.: " + dados[0] + " " +
                                 "E-mail.: " + dados[1] + " " +
@@ -85,12 +85,13 @@ public class Principal {
             switch (escolha) {
                 case "1":
                     System.out.println("Favor inserir os dados.");
-                    membros.add(cadastro());
+                    hackers.add(cadastro());
                     System.out.println("H4ck3r cadastrado com sucesso. Voltando ao menu...");
                     break;
 
                 case "2":
-                    System.out.println("Todos os h4ck3rs cadastrados");
+                    System.out.println("Todos os h4ck3rs cadastrados.:");
+
                     break;
 
                 case "3":
