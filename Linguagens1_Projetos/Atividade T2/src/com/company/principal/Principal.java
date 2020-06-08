@@ -113,12 +113,29 @@ public class Principal {
         int pos = 0;
         for (String hacker: this.hackers) {
             String[] dados = hacker.split(";");
-            System.out.println(pos + " - " + dados[0]);
+            System.out.println(pos + " - " + dados[0] + " - " + dados[2]);
             pos += 1;
         }
         String type = this.input.nextLine();
         System.out.println("Eliminando hacker...");
         this.hackers.remove(type);
+    }
+
+    // Método horários.: Muda o horário.
+    private void horario(){
+        switch (this.horarios){
+            case REGULAR:
+            System.out.println("Mudando horário para.: Extra");
+            this.horarios = Horarios.EXTRA;
+            break;
+            case EXTRA:
+            System.out.println("Mudando horário para.: Regular");
+            this.horarios = Horarios.REGULAR;
+            break;
+            default:
+            System.out.println("System Error. Please contact administrators.");
+            break;
+        }
     }
 
     // O principal que roda tudo.
@@ -148,19 +165,7 @@ public class Principal {
 
                     // Mudar horário
                 case "4":
-                    switch (this.horarios){
-                        case REGULAR:
-                            System.out.println("Mudando horário para extra");
-                            this.horarios = Horarios.EXTRA;
-                            break;
-                        case EXTRA:
-                            System.out.println("Mudando horário para regular");
-                            this.horarios = Horarios.REGULAR;
-                            break;
-                        default:
-                            System.out.println("System Error. Please contact administrators.");
-                            break;
-                    }
+                    horario();
                     break;
 
                     // Output de todas as mensagems para cada hacker
