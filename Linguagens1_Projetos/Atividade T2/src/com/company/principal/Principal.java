@@ -10,11 +10,11 @@ import com.company.models.ScriptGuys;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
+/** Principal.:
+ * - Realiza varias operacoes, serve para rodar o principal codigo
+ */
 public class Principal implements Apresentacao {
-    /** Principal.:
-     * - Realiza varias operacoes, serve para rodar o principal codigo
-     */
+
 
 
     /** Uma lista de todos os "hackers" registrados.
@@ -36,7 +36,10 @@ public class Principal implements Apresentacao {
      * Usado para registrar input do usuario.
      */
     Scanner input = new Scanner(System.in);
-
+    /**
+     * Menu, feito para representar o loop de mensagems e possiveis escolhas.
+     * @return escolha Output usado pelo metodo run() para ajudar em outras escolhas
+     */
     private String menu() {
         System.out.println("Bem vindo ao sistema MAsK_S0c13ty");
         System.out.println("Escolha uma das seguintes opções.:");
@@ -50,11 +53,11 @@ public class Principal implements Apresentacao {
         String escolha = this.input.nextLine();
         return escolha;
     }
-    /**
-     * Menu, feito para representar o loop de mensagems e possiveis escolhas.
-     * @return escolha Output usado pelo metodo run() para ajudar em outras escolhas
-     */
 
+    /**
+     * Metodo cadastro.
+     * Feito para inserir um novo membro na lista de hackers. Void
+     */
     private String cadastro(){
         // Username
         System.out.println("Digitar o nome do h4ck3r.:");
@@ -88,11 +91,11 @@ public class Principal implements Apresentacao {
 
         return (nome + ";" +  email + ";" + membro);
     }
-    /**
-     * Metodo cadastro.
-     * Feito para inserir um novo membro na lista de hackers. Void
-     */
 
+    /**
+     * Metodo usuarios.
+     * Feito para colocar na tela todos os usuarios que tem na lista de hackers. Void.
+     */
     private void usuarios(){
         for (String hacker: this.hackers) {
             String[] dados = hacker.split(";");
@@ -103,11 +106,11 @@ public class Principal implements Apresentacao {
 
     }
 
-    /**
-     * Metodo usuarios.
-     * Feito para colocar na tela todos os usuarios que tem na lista de hackers. Void.
-     */
 
+    /**
+     *  Metodo apresentacao.
+     *  Usado para escrever todos os possiveis valores da mensagem.
+     */
     public void apresentacao(){
         for (String hacker: hackers) {
             String[] dados = hacker.split(";");
@@ -132,11 +135,11 @@ public class Principal implements Apresentacao {
         }
     }
 
-    /**
-     *  Metodo apresentacao.
-     *  Usado para escrever todos os possiveis valores da mensagem.
-     */
 
+    /**
+     * Metodo deletar.
+     * Remove um hacker da lista de hackers existentes.
+     */
     private void deletar(){
         int pos = 0;
         for (String hacker: this.hackers) {
@@ -149,11 +152,11 @@ public class Principal implements Apresentacao {
         this.hackers.remove(type);
     }
 
-    /**
-     * Metodo deletar.
-     * Remove um hacker da lista de hackers existentes.
-     */
 
+    /**
+     * Metodo horario.
+     * Feito para alternar o horario entre "Regular" e "Extra"
+     */
     private void horario(){
         switch (this.horarios){
             case REGULAR:
@@ -170,12 +173,18 @@ public class Principal implements Apresentacao {
         }
     }
 
-    /**
-     * Metodo horario.
-     * Feito para alternar o horario entre "Regular" e "Extra"
-     */
 
-    // O principal que roda tudo.
+
+    /**
+     * Metodo run.
+     * Usado para escolher qual metodo usar, de acordo com o user input.
+     * 1 - Metodo cadástro, usado para registrar novos "hackers"
+     * 2 - Metodo usuários, usado para ver todos os "hackers"
+     * 3 - Metodo deletar, usado para eliminar um "hacker" que fala muito.
+     * 4 - Metodo horário, usado para alternar horario "Regular" e "Extra"
+     * 5 - Metodo Apresentação, interface usada para enviar mensagems a todos os hackers e dar display do que foi enviado.
+     * 6 - Sair do loop.
+     */
     public void run() {
         int exit = 0;
         while (exit == 0) {
@@ -226,16 +235,7 @@ public class Principal implements Apresentacao {
             System.out.println(" Voltando ao menu...");
         }
     }
-    /**
-     * Metodo run.
-     * Usado para escolher qual metodo usar, de acordo com o user input.
-     * 1 - Metodo cadástro, usado para registrar novos "hackers"
-     * 2 - Metodo usuários, usado para ver todos os "hackers"
-     * 3 - Metodo deletar, usado para eliminar um "hacker" que fala muito.
-     * 4 - Metodo horário, usado para alternar horario "Regular" e "Extra"
-     * 5 - Metodo Apresentação, interface usada para enviar mensagems a todos os hackers e dar display do que foi enviado.
-     * 6 - Sair do loop.
-     */
+
 }
 
 

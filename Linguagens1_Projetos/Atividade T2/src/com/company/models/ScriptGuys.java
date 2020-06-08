@@ -2,14 +2,12 @@ package com.company.models;
 
 import com.company.enums.Horarios;
 import com.company.interfaces.PostarMensagem;
-
+/**
+ * Classe dos Script Guys.
+ * Implementa a interface "PostarMensagem"
+ */
 public class ScriptGuys implements PostarMensagem {
     private String mensagem;
-
-    /**
-     * Classe dos Script Guys.
-     * Implementa a interface "PostarMensagem"
-     */
 
     @Override
     public String postarMensagem(Horarios horarios) {

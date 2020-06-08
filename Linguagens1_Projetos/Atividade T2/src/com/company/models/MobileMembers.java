@@ -3,14 +3,12 @@ package com.company.models;
 import com.company.enums.Horarios;
 import com.company.enums.Membro;
 import com.company.interfaces.PostarMensagem;
-
+/**
+ * Classe dos Mobile Members.
+ * Implementa a interface "PostarMensagem"
+ */
 public class MobileMembers implements PostarMensagem {
 private String mensagem;
-
-    /**
-     * Classe dos Mobile Members.
-     * Implementa a interface "PostarMensagem"
-     */
 
     @Override
     public String postarMensagem(Horarios horarios) {

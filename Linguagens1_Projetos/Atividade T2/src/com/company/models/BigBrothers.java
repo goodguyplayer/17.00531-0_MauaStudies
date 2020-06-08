@@ -2,13 +2,12 @@ package com.company.models;
 
 import com.company.enums.Horarios;
 import com.company.interfaces.PostarMensagem;
-
+/**
+ * Classe dos Big Brothers.
+ * Implementa a interface "PostarMensagem"
+ */
 public class BigBrothers implements PostarMensagem {
     private String mensagem;
-    /**
-     * Classe dos Big Brothers.
-     * Implementa a interface "PostarMensagem"
-     */
 
     @Override
     public String postarMensagem(Horarios horarios) {
