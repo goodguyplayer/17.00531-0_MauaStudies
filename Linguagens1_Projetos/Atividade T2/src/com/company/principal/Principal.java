@@ -91,21 +91,34 @@ public class Principal {
         switch (dados[2]){
             case "MOBILE_MEMBERS":
                 MobileMembers mm = new MobileMembers();
-                System.out.println(dados[0] + "-" + mm.postarMensagem(this.horarios));
+                System.out.println(dados[0] + " - " + mm.postarMensagem(this.horarios));
                 break;
             case "HEAVY_LIFTERS":
                 HeavyLifters hl = new HeavyLifters();
-                System.out.println(dados[0] + "-" + hl.postarMensagem(this.horarios));
+                System.out.println(dados[0] + " - " + hl.postarMensagem(this.horarios));
                 break;
             case "SCRIPT_GUYS":
                 ScriptGuys sc = new ScriptGuys();
-                System.out.println(dados[0] + "-" + sc.postarMensagem(this.horarios));
+                System.out.println(dados[0] + " - " + sc.postarMensagem(this.horarios));
                 break;
             case "BIG_BROTHERS":
                 BigBrothers bb = new BigBrothers();
-                System.out.println(dados[0] + "-" + bb.postarMensagem(this.horarios));
+                System.out.println(dados[0] + " - " + bb.postarMensagem(this.horarios));
                 break;
         }
+    }
+
+    // Método deletar.: "Remove" um hacker.
+    private void deletar(){
+        int pos = 0;
+        for (String hacker: this.hackers) {
+            String[] dados = hacker.split(";");
+            System.out.println(pos + " - " + dados[0]);
+            pos += 1;
+        }
+        String type = this.input.nextLine();
+        System.out.println("Eliminando hacker...");
+        this.hackers.remove(type);
     }
 
     // O principal que roda tudo.
@@ -130,6 +143,7 @@ public class Principal {
                     // Remover hacker
                 case "3":
                     System.out.println("Escolha o h4ck3r");
+                    deletar();
                     break;
 
                     // Mudar horário
