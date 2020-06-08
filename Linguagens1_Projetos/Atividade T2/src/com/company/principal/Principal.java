@@ -108,11 +108,11 @@ public class Principal {
                     // Mudar horário
                 case "4":
                     switch (this.horarios){
-                        case (REGULAR):
+                        case REGULAR:
                             System.out.println("Mudando horário para extra");
                             this.horarios = Horarios.EXTRA;
                             break;
-                        case (EXTRA):
+                        case EXTRA:
                             System.out.println("Mudando horário para regular");
                             this.horarios = Horarios.REGULAR;
                             break;
