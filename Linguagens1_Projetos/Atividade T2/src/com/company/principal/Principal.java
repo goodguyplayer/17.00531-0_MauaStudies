@@ -20,6 +20,8 @@ public class Principal {
         return escolha;
     }
 
+    //
+
     // O principal que roda tudo.
     public void run() {
         int exit = 0;
