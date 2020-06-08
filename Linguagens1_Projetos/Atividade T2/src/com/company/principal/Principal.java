@@ -1,5 +1,4 @@
 package com.company.principal;
 
-public class Cadastro {
-
+public class Principal {
 }
