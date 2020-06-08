@@ -2,6 +2,8 @@ package com.company.interfaces;
 
 public interface Apresentacao {
 
-    // Apresentar o relatório quando for chamado
+    /**
+     * Interface da apresentacao.
+     */
     public void apresentacao();
 }

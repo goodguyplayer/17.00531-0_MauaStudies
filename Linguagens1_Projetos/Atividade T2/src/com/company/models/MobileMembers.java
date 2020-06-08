@@ -7,6 +7,11 @@ import com.company.interfaces.PostarMensagem;
 public class MobileMembers implements PostarMensagem {
 private String mensagem;
 
+    /**
+     * Classe dos Mobile Members.
+     * Implementa a interface "PostarMensagem"
+     */
+
     @Override
     public String postarMensagem(Horarios horarios) {
 

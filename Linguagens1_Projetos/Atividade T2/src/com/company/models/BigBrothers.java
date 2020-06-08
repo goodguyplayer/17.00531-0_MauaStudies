@@ -5,6 +5,10 @@ import com.company.interfaces.PostarMensagem;
 
 public class BigBrothers implements PostarMensagem {
     private String mensagem;
+    /**
+     * Classe dos Big Brothers.
+     * Implementa a interface "PostarMensagem"
+     */
 
     @Override
     public String postarMensagem(Horarios horarios) {

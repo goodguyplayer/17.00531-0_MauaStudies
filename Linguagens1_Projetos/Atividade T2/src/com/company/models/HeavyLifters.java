@@ -4,6 +4,10 @@ import com.company.enums.Horarios;
 import com.company.interfaces.PostarMensagem;
 
 public class HeavyLifters  implements PostarMensagem {
+    /**
+     * Classe dos Heavy Lifters.
+     * Implementa a interface "PostarMensagem"
+     */
     private String mensagem;
 
     @Override

@@ -6,6 +6,11 @@ import com.company.interfaces.PostarMensagem;
 public class ScriptGuys implements PostarMensagem {
     private String mensagem;
 
+    /**
+     * Classe dos Script Guys.
+     * Implementa a interface "PostarMensagem"
+     */
+
     @Override
     public String postarMensagem(Horarios horarios) {
 
