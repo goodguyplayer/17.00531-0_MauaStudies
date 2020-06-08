@@ -1,4 +1,5 @@
 package com.company.principal;
+import com.company.enums.Horarios;
 import com.company.enums.Membro;
 
 import java.util.ArrayList;
@@ -12,6 +13,9 @@ public class Principal {
 
     // Enum - Membros
     Membro membro;
+
+    // Enum - Horario
+    Horarios horarios = Horarios.REGULAR;
 
     // User input
     Scanner input = new Scanner(System.in);
@@ -50,16 +54,16 @@ public class Principal {
         String type = this.input.nextLine();
         switch (type){
             case "1":
-                membro = membro.MOBILE_MEMBERS;
+                membro = Membro.MOBILE_MEMBERS;
                 break;
             case "2":
-                membro = membro.HEAVY_LIFTERS;
+                membro = Membro.HEAVY_LIFTERS;
                 break;
             case "3":
-                membro = membro.SCRIPT_GUYS;
+                membro = Membro.SCRIPT_GUYS;
                 break;
             case "4":
-                membro = membro.BIG_BROTHERS;
+                membro = Membro.BIG_BROTHERS;
 
         }
 
@@ -83,29 +87,47 @@ public class Principal {
         while (exit == 0) {
             String escolha = menu();
             switch (escolha) {
+                    // Novo hacker
                 case "1":
                     System.out.println("Favor inserir os dados.");
                     hackers.add(cadastro());
                     System.out.println("H4ck3r cadastrado com sucesso.");
                     break;
 
+                    // Todos os hackers
                 case "2":
                     System.out.println("Todos os h4ck3rs cadastrados.:");
                     usuarios();
                     break;
 
+                    // Remover hacker
                 case "3":
                     System.out.println("Escolha o h4ck3r");
                     break;
 
+                    // Mudar horário
                 case "4":
-                    System.out.println("Mudando horário");
+                    switch (this.horarios){
+                        case (REGULAR):
+                            System.out.println("Mudando horário para extra");
+                            this.horarios = Horarios.EXTRA;
+                            break;
+                        case (EXTRA):
+                            System.out.println("Mudando horário para regular");
+                            this.horarios = Horarios.REGULAR;
+                            break;
+                        default:
+                            System.out.println("System Error. Please contact administrators.");
+                            break;
+                    }
                     break;
 
+                    // Output de todas as mensagems para cada hacker
                 case "5":
                     System.out.println("Enviando mensagem geral. Relatório de mensagems enviadas.:");
                     break;
 
+                    // Saindo código
                 case "6":
                     System.out.println("Saindo...");
                     exit += 1;
