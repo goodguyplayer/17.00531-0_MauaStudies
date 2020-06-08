@@ -152,6 +152,9 @@ public class Principal {
                     // Output de todas as mensagems para cada hacker
                 case "5":
                     System.out.println("Enviando mensagem geral. Relatório de mensagems enviadas.:");
+                    for (String hacker: this.hackers) {
+                        mensagem(hacker);
+                    }
                     break;
 
                     // Saindo código
