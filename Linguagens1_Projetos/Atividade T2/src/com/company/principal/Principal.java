@@ -1,6 +1,7 @@
 package com.company.principal;
 import com.company.enums.Horarios;
 import com.company.enums.Membro;
+import com.company.interfaces.Apresentacao;
 import com.company.models.BigBrothers;
 import com.company.models.HeavyLifters;
 import com.company.models.MobileMembers;
@@ -9,8 +10,9 @@ import com.company.models.ScriptGuys;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Principal {
-    // Deve realizar o cadastro, apresentação de novos membros, mandar alguem embora, trocar jornada de trabalho, postar mensagems, sair do sistema
+// Deve realizar o cadastro, apresentação de novos membros, mandar alguem embora, trocar jornada de trabalho, postar mensagems, sair do sistema
+public class Principal implements Apresentacao {
+
 
     // Guardar todos os membros registrados
     private ArrayList<String> hackers = new ArrayList<String>();
@@ -85,26 +87,28 @@ public class Principal {
 
     }
 
-    // Método mensagem.: "get" de um usuário em especifico.
-    private void mensagem(String hacker){
-        String[] dados = hacker.split(";");
-        switch (dados[2]){
-            case "MOBILE_MEMBERS":
-                MobileMembers mm = new MobileMembers();
-                System.out.println(dados[0] + " - " + mm.postarMensagem(this.horarios));
-                break;
-            case "HEAVY_LIFTERS":
-                HeavyLifters hl = new HeavyLifters();
-                System.out.println(dados[0] + " - " + hl.postarMensagem(this.horarios));
-                break;
-            case "SCRIPT_GUYS":
-                ScriptGuys sc = new ScriptGuys();
-                System.out.println(dados[0] + " - " + sc.postarMensagem(this.horarios));
-                break;
-            case "BIG_BROTHERS":
-                BigBrothers bb = new BigBrothers();
-                System.out.println(dados[0] + " - " + bb.postarMensagem(this.horarios));
-                break;
+    // Apresentaçao.
+    public void apresentacao(){
+        for (String hacker: hackers) {
+            String[] dados = hacker.split(";");
+            switch (dados[2]){
+                case "MOBILE_MEMBERS":
+                    MobileMembers mm = new MobileMembers();
+                    System.out.println(dados[0] + " - " + mm.postarMensagem(this.horarios));
+                    break;
+                case "HEAVY_LIFTERS":
+                    HeavyLifters hl = new HeavyLifters();
+                    System.out.println(dados[0] + " - " + hl.postarMensagem(this.horarios));
+                    break;
+                case "SCRIPT_GUYS":
+                    ScriptGuys sc = new ScriptGuys();
+                    System.out.println(dados[0] + " - " + sc.postarMensagem(this.horarios));
+                    break;
+                case "BIG_BROTHERS":
+                    BigBrothers bb = new BigBrothers();
+                    System.out.println(dados[0] + " - " + bb.postarMensagem(this.horarios));
+                    break;
+            }
         }
     }
 
@@ -172,7 +176,7 @@ public class Principal {
                 case "5":
                     System.out.println("Enviando mensagem geral. Relatório de mensagems enviadas.:");
                     for (String hacker: this.hackers) {
-                        mensagem(hacker);
+                        apresentacao();
                     }
                     break;
 
