@@ -1,4 +1,6 @@
 package com.company.principal;
+import com.company.enums.Membro;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,6 +9,9 @@ public class Principal {
 
     // Guardar todos os membros registrados
     private ArrayList<String> membros = new ArrayList<String>();
+
+    // Enum - Membros
+    Membro membro;
 
     // User input
     Scanner input = new Scanner(System.in);
@@ -43,10 +48,34 @@ public class Principal {
         System.out.println("3 - Script Guys");
         System.out.println("4 - Big Brothers");
         String type = this.input.nextLine();
+        switch (type){
+            case "1":
+                membro = membro.MOBILE_MEMBERS;
+                break;
+            case "2":
+                membro = membro.HEAVY_LIFTERS;
+                break;
+            case "3":
+                membro = membro.SCRIPT_GUYS;
+                break;
+            case "4":
+                membro = membro.BIG_BROTHERS;
 
-        return (nome + ";" +  email + ";" + type);
+        }
+
+        return (nome + ";" +  email + ";" + membro);
     }
-    
+
+    // Método usuários.: "get" de todos os usuários/Hackers cadastrados. Ou h4ck3rs
+    private void usuarios(){
+        for (String hacker: this.membros) {
+            String[] dados = hacker.split(";");
+            System.out.println( "H4ck3r.: " + dados[0] + " " +
+                                "E-mail.: " + dados[1] + " " +
+                                "Classe.: " + dados[2]);
+        }
+
+    }
 
     // O principal que roda tudo.
     public void run() {
