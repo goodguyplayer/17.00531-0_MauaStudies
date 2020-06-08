@@ -8,9 +8,16 @@ public class MobileMembers implements PostarMensagem {
     public MobileMembers() {
     }
 
-    @Override
-    public void postarMensagem() {
 
+    @Override
+    public String postarMensagem(Horarios horarios) {
+        switch (horarios){
+            case REGULAR:
+                return "- Happy Coding!";
+                break;
+            case EXTRA:
+                return  "- Happy_C0d1ng. Maskers";
+                break;
+        }
     }
-    
 }
