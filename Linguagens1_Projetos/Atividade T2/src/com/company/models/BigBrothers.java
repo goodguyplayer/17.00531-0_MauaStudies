@@ -11,10 +11,10 @@ public class BigBrothers implements PostarMensagem {
 
         switch (horarios){
             case REGULAR:
-                this.mensagem = "- Sempre ajudando as pessoas membros ou não S2!";
+                this.mensagem = "Sempre ajudando as pessoas membros ou não S2!";
                 break;
             case EXTRA:
-                this.mensagem =  "- ...";
+                this.mensagem =  "...";
                 break;
         }
         return this.mensagem;

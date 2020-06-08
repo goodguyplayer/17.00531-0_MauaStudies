@@ -12,10 +12,10 @@ private String mensagem;
 
         switch (horarios){
             case REGULAR:
-                this.mensagem = "- Happy Coding!";
+                this.mensagem = "Happy Coding!";
                 break;
             case EXTRA:
-                this.mensagem =  "- Happy_C0d1ng. Maskers";
+                this.mensagem =  "Happy_C0d1ng. Maskers";
                 break;
         }
         return this.mensagem;

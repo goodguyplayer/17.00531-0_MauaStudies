@@ -1,6 +1,10 @@
 package com.company.principal;
 import com.company.enums.Horarios;
 import com.company.enums.Membro;
+import com.company.models.BigBrothers;
+import com.company.models.HeavyLifters;
+import com.company.models.MobileMembers;
+import com.company.models.ScriptGuys;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -79,6 +83,29 @@ public class Principal {
                                 "Classe.: " + dados[2]);
         }
 
+    }
+
+    // Método mensagem.: "get" de um usuário em especifico.
+    private void mensagem(String hacker){
+        String[] dados = hacker.split(";");
+        switch (dados[2]){
+            case "MOBILE_MEMBERS":
+                MobileMembers mm = new MobileMembers();
+                System.out.println(dados[0] + "-" + mm.postarMensagem(this.horarios));
+                break;
+            case "HEAVY_LIFTERS":
+                HeavyLifters hl = new HeavyLifters();
+                System.out.println(dados[0] + "-" + hl.postarMensagem(this.horarios));
+                break;
+            case "SCRIPT_GUYS":
+                ScriptGuys sc = new ScriptGuys();
+                System.out.println(dados[0] + "-" + sc.postarMensagem(this.horarios));
+                break;
+            case "BIG_BROTHERS":
+                BigBrothers bb = new BigBrothers();
+                System.out.println(dados[0] + "-" + bb.postarMensagem(this.horarios));
+                break;
+        }
     }
 
     // O principal que roda tudo.

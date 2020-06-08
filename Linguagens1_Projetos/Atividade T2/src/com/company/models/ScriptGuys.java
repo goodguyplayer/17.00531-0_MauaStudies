@@ -11,10 +11,10 @@ public class ScriptGuys implements PostarMensagem {
 
         switch (horarios){
             case REGULAR:
-                this.mensagem = "- Prazer em ajudar novos amigos de código!";
+                this.mensagem = "Prazer em ajudar novos amigos de código!";
                 break;
             case EXTRA:
-                this.mensagem =  "- QU3Ro_S3us_r3curs0s.py";
+                this.mensagem =  "QU3Ro_S3us_r3curs0s.py";
                 break;
         }
         return this.mensagem;

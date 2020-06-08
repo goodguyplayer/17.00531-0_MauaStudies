@@ -11,10 +11,10 @@ public class HeavyLifters  implements PostarMensagem {
 
         switch (horarios){
             case REGULAR:
-                this.mensagem = "- Podem contar conosco!";
+                this.mensagem = "Podem contar conosco!";
                 break;
             case EXTRA:
-                this.mensagem =  "- N00b_qu3_n_Se_r3pita.bat";
+                this.mensagem =  "N00b_qu3_n_Se_r3pita.bat";
                 break;
         }
         return this.mensagem;
