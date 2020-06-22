@@ -15,10 +15,9 @@ public class Usuario implements Autenticacao {
     String nome, email, senha;
     boolean autorizado = false;
 
-    public Usuario(String nome, String email, String senha) {
+    public Usuario(String nome, String email) {
         this.nome = nome;
         this.email = email;
-        this.senha = senha;
     }
 
     @Override

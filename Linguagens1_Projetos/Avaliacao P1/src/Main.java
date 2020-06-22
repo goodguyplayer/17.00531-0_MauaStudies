@@ -6,5 +6,6 @@ public class Main {
         String teste = pedidos.criarPedido();
         System.out.println(teste);
         teste = pedidos.alterarPedido(teste);
+        System.out.println(teste);
     }
 }
