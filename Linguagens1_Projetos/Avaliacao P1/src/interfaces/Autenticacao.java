@@ -1,4 +1,4 @@
-package Interfaces;
+package interfaces;
 
 /**
  * Auxilia na autenticação do usuário.
