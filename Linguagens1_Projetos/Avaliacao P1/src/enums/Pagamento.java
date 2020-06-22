@@ -5,8 +5,6 @@ package enums;
  * Esse enum ira ajudar na verificacao de que tipo de pagamento foi usado.
  *
  */
-
-
 public enum Pagamento {
     DINHEIRO,
     DEBITO,
