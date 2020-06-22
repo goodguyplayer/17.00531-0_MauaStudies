@@ -9,6 +9,8 @@ package models;
  * @version 1.0
  */
 public class Usuario {
+
+
     String nome, email, senha;
     boolean autorizado = false;
 
