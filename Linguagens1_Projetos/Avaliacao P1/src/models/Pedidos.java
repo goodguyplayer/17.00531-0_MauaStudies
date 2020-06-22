@@ -3,6 +3,7 @@ package models;
 import enums.Pagamento;
 import enums.Status;
 
+import java.util.Scanner;
 import java.util.Random;
 
 
@@ -23,8 +24,54 @@ public class Pedidos {
      * @return String Retorna uma string no formato "ID;Descricao;Valor;Pagamento;Status"
      */
     public String criarPedido(){
+        Scanner input = new Scanner(System.in);
 
-        return "";
+        // Segmento - descricao
+        System.out.println("Favor descrever o pedido.:");
+        String descricao = input.nextLine();
+
+        // Segmento - valor
+        System.out.println("Quanto que foi.:");
+        String valor = input.nextLine();
+
+        // Segmento - pagamento
+        System.out.println("Tipo de pagamento?");
+        System.out.println("1 - Dinheiro");
+        System.out.println("2 - Débito");
+        System.out.println("3 - Crédito");
+        System.out.println("4 - Vale alimentação");
+        System.out.println("5 - Vale refeição");
+
+        String tipopagamento = input.nextLine();
+        switch (tipopagamento){
+            case "1":
+                pagamento = Pagamento.DINHEIRO;
+                break;
+            case "2":
+                pagamento = Pagamento.DEBITO;
+                break;
+            case "3":
+                pagamento = Pagamento.CREDITO;
+                break;
+            case "4":
+                pagamento = Pagamento.VALE_ALIMENTACAO;
+                break;
+            case "5":
+                pagamento = Pagamento.VALE_REFEICAO;
+                break;
+            default:
+                System.out.println("Erro. Pagamento não identificado.");
+        }
+
+        // Segmento - Status
+        status = Status.REALIZADO;
+
+        // Retorna tudo
+        return geradorId() +";"+
+                descricao +";"+
+                valor +";"+
+                pagamento +";"+
+                status;
     }
 
     /**
