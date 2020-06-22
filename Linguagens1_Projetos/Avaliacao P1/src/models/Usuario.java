@@ -1,5 +1,7 @@
 package models;
 
+import interfaces.Autenticacao;
+
 /**
  * <h1>Classe Usuário</h1>
  * Essa classe extende a interface Autenticacao e, com a sua ajuda, verifica se a pessoa que está tentando acessar o sistema
@@ -8,11 +10,24 @@ package models;
  * @author Nathan Brito da Silva - 17.00531-0
  * @version 1.0
  */
-public class Usuario {
-
+public class Usuario implements Autenticacao {
 
     String nome, email, senha;
     boolean autorizado = false;
 
+    public Usuario(String nome, String email, String senha) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+    }
 
+    @Override
+    public void autenticado(String senha) {
+        if (senha.equals("123456")){
+            this.autorizado = true;
+        }
+        else{
+            this.autorizado = false;
+        }
+    }
 }
