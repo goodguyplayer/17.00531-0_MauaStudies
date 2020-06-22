@@ -107,11 +107,16 @@ public class Pedidos {
             case "5":
                 helper = Status.DEVOLVIDO;
                 break;
-
+            default:
+                throw new IllegalStateException("Unexpected value: " + stat);
         }
 
 
-        return pedido;
+        return parts[0] + ";" +
+                parts[1] + ";" +
+                parts[2] + ";" +
+                parts[3] + ";" +
+                helper;
     }
 
     /**

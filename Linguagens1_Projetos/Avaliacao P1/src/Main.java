@@ -1,5 +1,10 @@
+import models.Pedidos;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        Pedidos pedidos = new Pedidos();
+        String teste = pedidos.criarPedido();
+        System.out.println(teste);
+        teste = pedidos.alterarPedido(teste);
     }
 }
