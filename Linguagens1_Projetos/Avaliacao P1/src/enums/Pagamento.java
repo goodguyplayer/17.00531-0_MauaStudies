@@ -2,7 +2,7 @@ package enums;
 
 /**
  * <h1> Enum Pagamento </h1>
- * Esse enum irá ajudar na verificação de que tipo de pagamento foi usado.
+ * Esse enum ira ajudar na verificacao de que tipo de pagamento foi usado.
  */
 
 
