@@ -75,6 +75,18 @@ public class Pedidos {
     }
 
     /**
+     * Método usado para alterar o pedido feito previamente.
+     * No momento, só altera o status do pedido
+     * @param pedido String representante do pedido feito. "ID;Descricao;Valor;Pagamento;Status", alterando apenas o final.
+     * @return String Retorna o pedido feito, agora alterado devidamente.
+     */
+    public String alterarPedido(String pedido){
+
+
+        return pedido;
+    }
+
+    /**
      * Método usado para gerar um ID para o pedido na criação.
      * @return idGerado String para o ID
      */
