@@ -18,13 +18,13 @@ import java.util.Random;
 public class Pedidos {
     Pagamento pagamento;
     Status status;
+    Scanner input = new Scanner(System.in);
 
     /**
      * Método usado para gerar uma string para simular o pedido feito.
      * @return String Retorna uma string no formato "ID;Descricao;Valor;Pagamento;Status"
      */
     public String criarPedido(){
-        Scanner input = new Scanner(System.in);
 
         // Segmento - descricao
         System.out.println("Favor descrever o pedido.:");
@@ -81,6 +81,34 @@ public class Pedidos {
      * @return String Retorna o pedido feito, agora alterado devidamente.
      */
     public String alterarPedido(String pedido){
+        String[] parts = pedido.split(";"); // 4. Change 4
+        Status helper;
+
+        System.out.println("1 - Realizado");
+        System.out.println("2 - Preparação");
+        System.out.println("3 - Saiu para entrega");
+        System.out.println("4 - Entregue");
+        System.out.println("5 - Devolvido");
+        String stat = input.nextLine();
+
+        switch (stat){
+            case "1":
+                helper = Status.REALIZADO;
+                break;
+            case "2":
+                helper = Status.PREPARACAO;
+                break;
+            case "3":
+                helper = Status.SAIU_PARA_ENTREGA;
+                break;
+            case "4":
+                helper = Status.ENTREGUE;
+                break;
+            case "5":
+                helper = Status.DEVOLVIDO;
+                break;
+
+        }
 
 
         return pedido;
