@@ -5,6 +5,7 @@ package interfaces;
  * Essa interface auxiliara na autenticacao do usuario.
  *
  * @author Nathan Brito da Silva - 17.00531-0
+ * @version 1.0
  */
 public interface Autenticacao {
 
