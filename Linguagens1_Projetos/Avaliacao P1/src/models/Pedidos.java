@@ -62,6 +62,9 @@ public class Pedidos {
                 break;
             default:
                 System.out.println("Erro. Pagamento não identificado.");
+                System.out.println("marcando como Dinheiro");
+                pagamento = Pagamento.DINHEIRO;
+                break;
         }
 
         // Segmento - Status
@@ -109,7 +112,9 @@ public class Pedidos {
                 helper = Status.DEVOLVIDO;
                 break;
             default:
-                throw new IllegalStateException("Unexpected value: " + stat);
+                System.out.println("Input não reconhecido");
+                System.out.println("Convertendo para \"Realizado\"");
+                helper = Status.REALIZADO;
         }
 
         System.out.println("Pedido atualizado.");

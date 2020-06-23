@@ -27,21 +27,29 @@ public class SistemaPrincipal {
             options();
             String escolha = input.nextLine();
             switch (escolha){
+
+                //Cria um novo pedido
                 case "1":
                     criarNovoPedido();
                     break;
 
+                    // Vê todos os pedidos
                 case "2":
                     visualizacao();
                     break;
 
+                    // Atualiza o pedido
                 case "3":
                     atualizacao();
                     break;
+
+                    // Exit
                 case "0":
                     System.out.println("Saindo do sistema. Que o rato ria na sua pizza.");
                     leave = 1;
                     break;
+
+                    // Error message
                 default:
                     System.out.println("Comando não reconhecido. Resetando o menu...");
                     break;
@@ -73,11 +81,11 @@ public class SistemaPrincipal {
     private void visualizacao(){
         for (String item: this.pedidosfeitos) {
             String[] parts = item.split(";");
-            System.out.println("ID " + parts[0]);
-            System.out.println("Descrição " + parts[1]);
-            System.out.println("Valor " + parts[2]);
-            System.out.println("Pagamento " + parts[3]);
-            System.out.println("Status " + parts[4] + "\n");
+            System.out.println("ID: " + parts[0]);
+            System.out.println("Descrição: " + parts[1]);
+            System.out.println("Valor: " + parts[2]);
+            System.out.println("Pagamento: " + parts[3]);
+            System.out.println("Status: " + parts[4] + "\n");
         }
     }
 
