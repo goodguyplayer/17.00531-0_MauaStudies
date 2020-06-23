@@ -84,8 +84,15 @@ public class SistemaPrincipal {
         System.out.println("Antes de proceder, favor inserir sua senha.:");
         String senha = input.nextLine();
         if(usuario.autenticado(senha)){
-
+            int helper = 0;
+            System.out.println("Favor escolher qual para atualizar");
+            for (String item: this.pedidosfeitos) {
+                String[] parts = item.split(";");
+                System.out.println(helper + "- ID: " + parts[0]);
+                helper += 1;
+            }
+            int posicao = input.nextInt();
+            pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
         }
     }
-
 }
