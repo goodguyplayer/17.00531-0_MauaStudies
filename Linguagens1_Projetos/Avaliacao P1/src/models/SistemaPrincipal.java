@@ -9,6 +9,7 @@ import java.util.Scanner;
  *
  * @author Nathan Brito da Silva - 17.00531-0
  * @version 1.0
+ * @since 1.0
  */
 public class SistemaPrincipal {
     Pedidos pedidos = new Pedidos();
@@ -16,6 +17,10 @@ public class SistemaPrincipal {
     ArrayList<String> pedidosfeitos = new ArrayList<String>();
     Scanner input = new Scanner(System.in);
 
+    /**
+     * Metodo run
+     * O metodo utilizado para realizar o loop do sistema e chamar os outros metodos de acordo com as opcoes escolhidas.
+     */
     public void run(){
         int leave = 0;
         while (leave == 0){
@@ -66,11 +71,11 @@ public class SistemaPrincipal {
     private void visualizacao(){
         for (String item: this.pedidosfeitos) {
             String[] parts = item.split(";");
-            System.out.println("ID" + parts[0]);
-            System.out.println("Descrição" + parts[1]);
-            System.out.println("Valor" + parts[2]);
-            System.out.println("Pagamento" + parts[3]);
-            System.out.println("Status" + parts[4]);
+            System.out.println("ID " + parts[0]);
+            System.out.println("Descrição " + parts[1]);
+            System.out.println("Valor " + parts[2]);
+            System.out.println("Pagamento " + parts[3]);
+            System.out.println("Status " + parts[4] + "\n");
         }
     }
 

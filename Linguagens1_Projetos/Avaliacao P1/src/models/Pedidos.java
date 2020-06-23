@@ -14,6 +14,7 @@ import java.util.Random;
  *
  * @author Nathan Brito da Silva - 17.00531-0
  * @version 1.0
+ * @since 1.0
  */
 public class Pedidos {
     Pagamento pagamento;
