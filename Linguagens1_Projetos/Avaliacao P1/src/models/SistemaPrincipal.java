@@ -23,7 +23,7 @@ public class SistemaPrincipal {
             escolha = input.nextLine();
             switch (escolha){
                 case "1":
-                    this.pedidosfeitos.add(pedidos.criarPedido());
+                    criarNovoPedido();
                     break;
 
                 case "2":
@@ -31,15 +31,12 @@ public class SistemaPrincipal {
                     break;
 
                 case "3":
-                    int helper = 1;
-                    for (String item: this.pedidosfeitos) {
-                        String[] parts = item.split(";");
-                        System.out.println(helper + " - ID: " + parts[0]);
-                        helper += 1;
-                    }
-                    System.out.println("Qual você quer alterar?");
-                    String posicao = input.nextLine();
-
+                    visualizacao();
+                    break;
+                case "0":
+                    System.out.println("Saindo do sistema. Que o rato ria na sua pizza.");
+                default:
+                    System.out.println("Comando não reconhecido. Resetando o menu...");
             }
         }
 
