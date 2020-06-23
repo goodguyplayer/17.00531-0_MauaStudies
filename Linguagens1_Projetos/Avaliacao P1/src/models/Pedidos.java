@@ -111,7 +111,8 @@ public class Pedidos {
                 throw new IllegalStateException("Unexpected value: " + stat);
         }
 
-
+        System.out.println("Pedido atualizado.");
+        System.out.println("Status.: De " + parts[4] + " para " + helper);
         return parts[0] + ";" +
                 parts[1] + ";" +
                 parts[2] + ";" +
