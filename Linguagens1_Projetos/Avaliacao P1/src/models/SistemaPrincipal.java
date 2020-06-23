@@ -94,5 +94,9 @@ public class SistemaPrincipal {
             int posicao = input.nextInt();
             pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
         }
+        else {
+            System.out.println("Você não tem permissão para isso.");
+            System.out.println("Voltando ao menu principal...");
+        }
     }
 }
