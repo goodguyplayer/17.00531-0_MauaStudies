@@ -15,5 +15,5 @@ public interface Autenticacao {
      * @return false se a senha nao for igual a que esta registrada no sistema.
      * @return true se a senha for igual a que esta registrada no sistema.
      */
-    void autenticado(String senha);
+    boolean autenticado(String senha);
 }

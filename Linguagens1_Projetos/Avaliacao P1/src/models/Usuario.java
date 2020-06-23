@@ -21,12 +21,12 @@ public class Usuario implements Autenticacao {
     }
 
     @Override
-    public void autenticado(String senha) {
+    public boolean autenticado(String senha) {
         if (senha.equals("123456")){
-            this.autorizado = true;
+            return true;
         }
         else{
-            this.autorizado = false;
+            return false;
         }
     }
 }

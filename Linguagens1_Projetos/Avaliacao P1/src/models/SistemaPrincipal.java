@@ -81,7 +81,11 @@ public class SistemaPrincipal {
      * Feito para realizar a atualização do pedido.
      */
     private void atualizacao(){
-        
+        System.out.println("Antes de proceder, favor inserir sua senha.:");
+        String senha = input.nextLine();
+        if(usuario.autenticado(senha)){
+
+        }
     }
 
 }
