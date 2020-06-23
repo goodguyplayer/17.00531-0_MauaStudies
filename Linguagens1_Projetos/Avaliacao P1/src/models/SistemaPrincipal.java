@@ -14,13 +14,13 @@ public class SistemaPrincipal {
     Pedidos pedidos = new Pedidos();
     Usuario usuario = new Usuario("Rato que ri","ratoqueri@gmail.com.br");
     ArrayList<String> pedidosfeitos = new ArrayList<String>();
-    Scanner input;
+    Scanner input = new Scanner(System.in);
 
     public void run(){
-        String escolha = "1";
-        while (escolha.equals("0")){
+        int leave = 0;
+        while (leave == 0){
             options();
-            escolha = input.nextLine();
+            String escolha = input.nextLine();
             switch (escolha){
                 case "1":
                     criarNovoPedido();
@@ -31,10 +31,11 @@ public class SistemaPrincipal {
                     break;
 
                 case "3":
-                    visualizacao();
+                    atualizacao();
                     break;
                 case "0":
                     System.out.println("Saindo do sistema. Que o rato ria na sua pizza.");
+                    leave = 1;
                 default:
                     System.out.println("Comando não reconhecido. Resetando o menu...");
             }
