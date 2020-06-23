@@ -41,8 +41,10 @@ public class SistemaPrincipal {
                 case "0":
                     System.out.println("Saindo do sistema. Que o rato ria na sua pizza.");
                     leave = 1;
+                    break;
                 default:
                     System.out.println("Comando não reconhecido. Resetando o menu...");
+                    break;
             }
         }
 
