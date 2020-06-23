@@ -96,7 +96,23 @@ public class SistemaPrincipal {
         }
         else {
             System.out.println("Você não tem permissão para isso.");
-            System.out.println("Voltando ao menu principal...");
         }
+        System.out.println("Voltando ao menu principal...");
+    }
+
+    /**
+     * Método criarNovoPedido
+     * Feito para realizar a verificação do usuário e criar novo pedido
+     */
+    private void criarNovoPedido(){
+        System.out.println("Antes de proceder, favor inserir sua senha.:");
+        String senha = input.nextLine();
+        if(usuario.autenticado(senha)){
+            pedidosfeitos.add(pedidos.criarPedido());
+        }
+        else {
+            System.out.println("Você não tem permissão para isso.");
+        }
+        System.out.println("Voltando ao menu principal...");
     }
 }
