@@ -1,4 +1,7 @@
-package models;
+package Sistema;
+import models.Pedidos;
+import models.Usuario;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -1,5 +1,4 @@
-import models.Pedidos;
-import models.SistemaPrincipal;
+import Sistema.SistemaPrincipal;
 
 /**
  * Main
