@@ -71,7 +71,7 @@ public class SistemaPrincipal {
         System.out.println("1 - Nova venda");
         System.out.println("2 - Verificar pedido");
         System.out.println("3 - Alterar pedido");
-        System.out.println("0 - Nova venda");
+        System.out.println("0 - Sair do sistema");
     }
 
     /**
@@ -101,14 +101,14 @@ public class SistemaPrincipal {
             System.out.println("Favor escolher qual para atualizar");
             for (String item: this.pedidosfeitos) {
                 String[] parts = item.split(";");
-                System.out.println(helper + "- ID: " + parts[0]);
+                System.out.println(helper + " - ID: " + parts[0]);
                 helper += 1;
             }
             int posicao = input.nextInt();
             try {
-                pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
+                this.pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
             }catch (Exception e){
-                System.out.println("Error.: Pedido não conhecido. Atualização cancelada.");
+                System.out.println("Error.: Pedido " + posicao + " não conhecido. Atualização cancelada.");
             }
         }
         else {
