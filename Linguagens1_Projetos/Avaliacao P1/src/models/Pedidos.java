@@ -37,33 +37,37 @@ public class Pedidos {
 
         // Segmento - pagamento
         System.out.println("Tipo de pagamento?");
-        System.out.println("1 - Dinheiro");
-        System.out.println("2 - Débito");
-        System.out.println("3 - Crédito");
-        System.out.println("4 - Vale alimentação");
-        System.out.println("5 - Vale refeição");
+        System.out.println("0 - Dinheiro");
+        System.out.println("1 - Débito");
+        System.out.println("2 - Crédito");
+        System.out.println("3 - Vale alimentação");
+        System.out.println("4 - Vale refeição");
 
         String tipopagamento = input.nextLine();
-        switch (tipopagamento){
-            case "1":
+        while (true){
+            if (Integer.parseInt(tipopagamento) > 4){
+                System.out.println("Favor inserir um número apresentado acima");
+                tipopagamento = input.nextLine();
+            } else {
+                break;
+            }
+        }
+
+        switch (Integer.parseInt(tipopagamento)){
+            case 0:
                 pagamento = Pagamento.DINHEIRO;
                 break;
-            case "2":
+            case 1:
                 pagamento = Pagamento.DEBITO;
                 break;
-            case "3":
+            case 2:
                 pagamento = Pagamento.CREDITO;
                 break;
-            case "4":
+            case 3:
                 pagamento = Pagamento.VALE_ALIMENTACAO;
                 break;
-            case "5":
+            case 4:
                 pagamento = Pagamento.VALE_REFEICAO;
-                break;
-            default:
-                System.out.println("Erro. Pagamento não identificado.");
-                System.out.println("marcando como Dinheiro");
-                pagamento = Pagamento.DINHEIRO;
                 break;
         }
 
