@@ -105,7 +105,11 @@ public class SistemaPrincipal {
                 helper += 1;
             }
             int posicao = input.nextInt();
-            pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
+            try {
+                pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
+            }catch (Exception e){
+                System.out.println("Error.: Pedido não conhecido. Atualização cancelada.");
+            }
         }
         else {
             System.out.println("Você não tem permissão para isso.");
