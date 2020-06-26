@@ -23,9 +23,11 @@ public class SistemaPrincipal {
      */
     public void run(){
         int leave = 0;
+        String escolha = "";
         while (leave == 0){
             options();
-            String escolha = input.nextLine();
+            escolha = input.nextLine();
+
             switch (escolha){
 
                 //Cria um novo pedido
@@ -104,7 +106,7 @@ public class SistemaPrincipal {
                 System.out.println(helper + " - ID: " + parts[0]);
                 helper += 1;
             }
-            int posicao = input.nextInt();
+            int posicao = Integer.parseInt(input.nextLine()); //Algo esquisito de se fazer, porém funciona.
             try {
                 this.pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
             }catch (Exception e){
