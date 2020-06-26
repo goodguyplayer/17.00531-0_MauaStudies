@@ -72,6 +72,7 @@ public class SistemaPrincipal {
      * tipo "cancelar pedido", adicionar aqui a opção e mudar as escolhas em run().
      */
     private void options(){
+        // Caso seje necessário adicionar outro (excluir pedido, criar nova conta), esse formato facilita (?)
         System.out.println("Pizzaria - O rato que ri!");
         System.out.println("1 - Nova venda");
         System.out.println("2 - Verificar pedido");
@@ -84,6 +85,7 @@ public class SistemaPrincipal {
      * Feito para ir em cada item da lista "pedidosfeitos" e colocar na tela seu resultado.
      */
     private void visualizacao(){
+        // Poderia ter feito uma lista de class Pedidos também.
         for (String item: this.pedidosfeitos) {
             String[] parts = item.split(";");
             System.out.println("ID: " + parts[0]);
@@ -111,6 +113,7 @@ public class SistemaPrincipal {
             }
             int posicao = Integer.parseInt(input.nextLine()); //Algo esquisito de se fazer, porém funciona.
             try {
+                //Mudar string da posição x
                 this.pedidosfeitos.set(posicao, pedidos.alterarPedido(pedidosfeitos.get(posicao)));
             }catch (Exception e){
                 System.out.println("Error.: Pedido " + posicao + " não conhecido. Atualização cancelada.");
