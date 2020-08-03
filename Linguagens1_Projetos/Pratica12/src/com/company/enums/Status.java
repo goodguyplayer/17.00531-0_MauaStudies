@@ -5,6 +5,7 @@ public enum Status {
 
     private String display;
     Status(String display) {
+        this.display = display;
     }
 
     @Override
