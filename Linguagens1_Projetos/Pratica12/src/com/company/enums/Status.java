@@ -1,9 +1,14 @@
 package com.company.enums;
 
 public enum Status {
-    PLATINADO,
-    NAO_INICIADO,
-    TERMINADO,
-    JOGANDO,
-    NAO_ACABADO,
+    PLATINADO("platinado"), NAO_INICIADO("não iniciado"),TERMINADO("terminado"), JOGANDO("jogando");
+
+    private String display;
+    Status(String display) {
+    }
+
+    @Override
+    public String toString() {
+        return display;
+    }
 }
