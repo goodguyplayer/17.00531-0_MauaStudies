@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/implementacoes/serializacao/DeSerializar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/implementacoes/serializacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/implementacoes/serializacao/TesteSerializar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pratica12/com/company/enums/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica12/com/company/enums/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pratica12/com/company/testes/TestJogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica12/com/company/testes/TestJogo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/testes/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/testes/TestList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,20 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TestList">
+  <component name="RunManager" selected="Application.DeSerializar">
+    <configuration name="DeSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.implementacoes.serializacao.DeSerializar" />
+      <module name="Pratica12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.implementacoes.serializacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Pratica12" />
@@ -72,13 +85,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.implementacoes.serializacao.TesteSerializar" />
+      <module name="Pratica12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.implementacoes.serializacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestJogo" />
       <item itemvalue="Application.TestList" />
+      <item itemvalue="Application.TesteSerializar" />
+      <item itemvalue="Application.DeSerializar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeSerializar" />
+        <item itemvalue="Application.TesteSerializar" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.TestJogo" />
       </list>
@@ -100,21 +130,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1596464011535" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1596464283663">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1596467364670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596464283663" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1596464283663">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596467364670" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1596467364670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596464283663" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1596464283663">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596467364670" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1596467364670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596464283663" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1596464283663">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596467364670" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1596467364670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596464283663" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596467364670" />
   </component>
 </project>
