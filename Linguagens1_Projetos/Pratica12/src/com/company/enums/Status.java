@@ -4,7 +4,8 @@ public enum Status {
     PLATINADO("platinado"),
     NAO_INICIADO("não iniciado"),
     TERMINADO("terminado"),
-    JOGANDO("jogando");
+    JOGANDO("jogando"),
+    ABANDONADO("abandonado");
 
     private String display;
     Status(String display) {
