@@ -1,5 +1,6 @@
 package com.company.model;
 import com.company.enums.Status;
+import org.json.JSONObject;
 
 public class Jogo {
     private String platform;
@@ -28,4 +29,5 @@ public class Jogo {
     public void setStatusJogando(){
         this.status = Status.JOGANDO;
     }
+
 }

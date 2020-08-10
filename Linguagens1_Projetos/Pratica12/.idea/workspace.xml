@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="" />
+    <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pratica12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pratica12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pratica13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pratica13/Aula 13 - Arquivos.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +35,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/json-20200518.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Application.TesteEscrita">
     <configuration name="DeSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -129,10 +139,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1596464011535" />
-    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1596470886771">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1597064839426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596470886771" />
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597064839426" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1596467998735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -149,6 +159,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596467998735" />
+    <state x="440" y="114" key="SettingsEditor" timestamp="1597064878629">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597064878629" />
     <state x="342" y="160" key="new project wizard" timestamp="1596470889763">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
