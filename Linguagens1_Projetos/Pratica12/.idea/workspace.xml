@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pratica12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pratica12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/implementacoes/json/JogoParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/implementacoes/json/JogoParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Jogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pratica13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pratica13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pratica13/Aula 13 - Arquivos.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +133,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1596464011535">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1597065772309">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1596464011535" />
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1597065772309" />
     <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1597064839426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
