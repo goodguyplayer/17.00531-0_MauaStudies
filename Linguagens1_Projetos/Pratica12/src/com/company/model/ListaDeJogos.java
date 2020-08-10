@@ -14,6 +14,10 @@ public class ListaDeJogos {
         this.minhaListaDeJogos.add(jogo);
     }
 
+    public List<Jogo> getMinhaListaDeJogos() {
+        return minhaListaDeJogos;
+    }
+
     @Override
     public String toString() {
         return "ListaDeJogos{" +
