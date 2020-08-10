@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica12/com/company/enums/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica12/com/company/enums/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica12/com/company/implementacoes/json/JogoParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica12/com/company/implementacoes/json/JogoParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pratica12/com/company/testes/TesteJSon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica12/com/company/testes/TesteJSon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/implementacoes/json/JogoParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/implementacoes/json/JogoParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/testes/TesteJSon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/testes/TesteJSon.java" afterDir="false" />
     </list>
@@ -142,22 +144,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597064839426" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1596467998735">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1597067386147">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596467998735" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1596467998735">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597067386147" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1597067386147">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596467998735" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1596467998735">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597067386147" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1597067386147">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596467998735" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1596467998735">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597067386147" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1597067386147">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596467998735" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597067386147" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1597064878629">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
