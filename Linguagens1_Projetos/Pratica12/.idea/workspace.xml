@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/enums/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/implementacoes/json/JogoParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/implementacoes/json/JogoParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/testes/TesteJSon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/testes/TesteJSon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,26 +39,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.TesteEscrita">
+  <component name="RunManager" selected="Application.TesteJSon">
     <configuration name="DeSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.implementacoes.serializacao.DeSerializar" />
       <module name="Pratica12" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.implementacoes.serializacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestJogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.testes.TestJogo" />
-      <module name="Pratica12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.testes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteJSon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.testes.TesteJSon" />
+      <module name="Pratica12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteSerializar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.implementacoes.serializacao.TesteSerializar" />
       <module name="Pratica12" />
@@ -106,18 +107,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DeSerializar" />
-      <item itemvalue="Application.TestJogo" />
       <item itemvalue="Application.TestList" />
       <item itemvalue="Application.TesteEscrita" />
       <item itemvalue="Application.TesteSerializar" />
+      <item itemvalue="Application.TesteJSon" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteJSon" />
         <item itemvalue="Application.TesteEscrita" />
         <item itemvalue="Application.DeSerializar" />
         <item itemvalue="Application.TesteSerializar" />
         <item itemvalue="Application.TestList" />
-        <item itemvalue="Application.TestJogo" />
       </list>
     </recent_temporary>
   </component>

@@ -11,4 +11,13 @@ public class JogoParser {
             json.put("status", jogo.getStatus());
             return json;
     }
+
+    public static Jogo fromJson(JSONObject json){
+        Jogo jogo = new Jogo(
+                json.getString("plataforma"),
+                json.getString("nome")
+        );
+        jogo.setStatus(json.getString("status"));
+        return jogo;
+    }
 }
