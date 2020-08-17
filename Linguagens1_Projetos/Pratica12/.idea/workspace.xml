@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65fbfc6-57fd-4dd6-8300-30a9e116e66a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/enums/Tipos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/parser/ListaDeJogosParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/parser/ListaJornais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/testes/TesteJSonArquivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pratica12/com/company/model/ListaDeJogos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pratica12/com/company/model/ListaDeJogos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/ListaDeJogos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/ListaDeJogos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/json-20200518.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Github Projects/ProjetoBanca" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,9 +105,9 @@
     <list>
       <item itemvalue="Application.DeSerializar" />
       <item itemvalue="Application.TesteEscrita" />
-      <item itemvalue="Application.TesteSerializar" />
-      <item itemvalue="Application.TesteJSon" />
       <item itemvalue="Application.TesteJSonArquivo" />
+      <item itemvalue="Application.TesteJSon" />
+      <item itemvalue="Application.TesteSerializar" />
     </list>
     <recent_temporary>
       <list>
@@ -141,10 +135,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1597067632744" />
-    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1597064839426">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1597617993613">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597064839426" />
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597617993613" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1597075091207">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -165,9 +159,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1597064878629" />
-    <state x="342" y="160" key="new project wizard" timestamp="1596470889763">
+    <state x="342" y="160" key="new project wizard" timestamp="1597617995682">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="342" y="160" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1596470889763" />
+    <state x="342" y="160" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1597617995682" />
   </component>
 </project>
