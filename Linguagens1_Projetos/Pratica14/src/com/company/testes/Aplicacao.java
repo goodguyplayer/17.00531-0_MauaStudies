@@ -27,6 +27,8 @@ public class Aplicacao {
                 System.out.println(produto);
             }
 
+            result.close();
+
         } catch (Exception exception){
             exception.printStackTrace();
         }

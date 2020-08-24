@@ -1,8 +1,13 @@
 package com.company;
 
+import com.company.testes.Aplicacao;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Aplicacao app = new Aplicacao();
+        app.run();
+
     }
 }
