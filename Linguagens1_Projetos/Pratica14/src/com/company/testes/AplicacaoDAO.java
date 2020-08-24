@@ -19,7 +19,35 @@ public class AplicacaoDAO {
 
     }
 
-    public void run(){
+    private void exibirProdutos() {
+        produtos = produtoDAO.getAll();
+        System.out.println("Produto:");
+        produtos.forEach( produto -> System.out.println(produto));
+    }
 
+    public void run(){
+        boolean alive = true;
+        do {
+            menu();
+            int opcao = Integer.parseInt(scanner.next());
+
+            switch (opcao){
+                case 0:
+                    alive = false;
+                    break;
+                case 1:
+                    exibirProdutos();
+
+            }
+        } while (alive);
+    }
+
+    private void menu(){
+        System.out.println("PLUG_AND_USE-1996");
+        System.out.println("1 - Produtos cadastrados");
+        System.out.println("2 - Deletar produtos");
+        System.out.println("3 - Alterar produtos");
+        System.out.println("4 - Proutos cadastrados");
+        System.out.println("0 - Sair");
     }
 }
