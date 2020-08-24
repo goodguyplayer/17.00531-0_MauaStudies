@@ -47,16 +47,52 @@ public class ProdutoDAO implements DAO<Produto> {
 
     @Override
     public void update(Produto produto) {
+            try{
+                PreparedStatement preparedStatement = connection.prepareStatement("UPDATE produtos SET codigo = ?, nome = ?, descricao = ?, custo = ?, valor = ?, quantidade = ? WHERE codigo = ?;");
+                preparedStatement.setString(1, produto.getCodigo());
+                preparedStatement.setString(2, produto.getNome());
+                preparedStatement.setString(3, produto.getDescricao());
+                preparedStatement.setDouble(4, produto.getCusto());
+                preparedStatement.setDouble(5, produto.getValor());
+                preparedStatement.setInt(6, produto.getQuantidade());
+                preparedStatement.setString(7, produto.getCodigo());
+                //Executa o PreparedStatement
+                int retorno = preparedStatement.executeUpdate();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
 
     }
 
     @Override
     public void delete(Produto produto) {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM produtos WHERE codigo = ?");
+            preparedStatement.setString(1, produto.getCodigo());
+            preparedStatement.executeUpdate();
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 
     @Override
     public void create(Produto produto) {
+        try{
+            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO produtos (codigo, nome, descricao, custo, valor, quantidade) VALUES (?, ?, ?, ?, ?, ?);" );
+            preparedStatement.setString(1, produto.getCodigo());
+            preparedStatement.setString(2, produto.getNome());
+            preparedStatement.setString(3, produto.getDescricao());
+            preparedStatement.setDouble(4, produto.getCusto());
+            preparedStatement.setDouble(5, produto.getValor());
+            preparedStatement.setInt(6, produto.getQuantidade());
+
+            // Execute prepared statement
+            int retorno = preparedStatement.executeUpdate();
+        } catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 }
