@@ -1,0 +1,3 @@
+package poo
+
+class Pessoa
