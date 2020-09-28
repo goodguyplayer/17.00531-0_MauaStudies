@@ -1,3 +1,20 @@
 package poo
 
-class Pessoa
+// Parametros do constructor
+// Can use ' = "" ' as "Can be empty
+class Pessoa(nome: String, cpf: String = "", email: String = ""){
+
+    // Atributos da classe
+    val nome : String
+    val cpf : String
+    val email : String
+
+    // Constructor body
+    init {
+        this.nome = nome
+        this.cpf = cpf
+        this.email = email
+    }
+
+
+}
