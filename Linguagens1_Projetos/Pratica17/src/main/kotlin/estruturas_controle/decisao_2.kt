@@ -15,4 +15,13 @@ fun main() {
         }
         else -> println("Default value")
     }
+
+    when(valor!!.length){
+        in 1..10 -> println("Till 10 digits")
+        15 ->  {
+            // You can write multiple conds here
+            println("Size == 15")
+        }
+        else -> println("Default value")
+    }
 }
