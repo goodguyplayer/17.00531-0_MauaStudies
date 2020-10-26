@@ -15,5 +15,6 @@ fun main() {
     Result = num1 + num2
     println("Result.: $Result")
     println("Result.: ${num1 + num2}")
+    println("Result.: %.3f".format(Result))
 
 }
