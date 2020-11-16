@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screens/minha_lista_home.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -26,7 +28,8 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MinhaListaHome3(),
+      //home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
